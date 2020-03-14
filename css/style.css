@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+/* skip nav */
+#skip { }
+#skip a {
+  position: absolute;left: 0; top: -35px;
+  border: 1px solid #fff; color: #fff; background: #333;
+  line-height: 30px; width: 140px; text-align: center;
+}
+#skip a:active,
+#skip a:focus {top: 0;}
+
+/* layout */
+#wrap {
+  font-size: 0px; color: #fff;
+}
+#header {
+  margin-top: 50px;
+}
+#content { }
+#footer {height: 200px; background: #fff;}
+
+/* content layout */
+#cont-ban {background-color: #fff;}
+#cont-cont {background-color: #444;}
+
+/* container */
+.container {
+  width: 900px;
+  margin: 0 auto;
+  height: inherit; /*background: rgba(255,255,255,0.3)*/
+}
+
+/* header-tit nataliesioo MACAO SEOUL */
+.header .header-tit {
+  text-align: center;
+}
+
+.header .header-tit .header-img{
+  width: 256px;
+  height: 256px;
+  background-image: url(../img/header-test.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+
+}
+.header .header-tit h5 {
+  color: #4d3a33; font-size: 20px;
+  background-color: #fff;
+  display: block;
+  margin-top: 0px;
+  font-weight: 100;
+}
+.header .header-tit h6 {
+  color: #4d3a33; font-size: 15px; padding: 5px;
+  background-color: #fff;
+  display: inline-block;
+  margin-bottom: 50px;
+  font-weight:lighter;
+}
+
+/* header ABOUT EFFECT ,,,*/
+.header { }
+.header .header-menu {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header .header-menu a{
+  background-color: #fff;
+  color: #6e5f59; font-size: 23px;
+  padding: 0px 20px 8px 10px;
+  display: inline-block;
+  margin-top: -5px;
+  font-weight: 700;
+}
+.header .header-menu a:hover {color: #666;}
+
+    /* header-icon */
+    /* .header .header-icon {
+    text-align: right;
+    margin-top: -300px;}
+    .header .header-icon a {
+    width: 60px; height: 60px;
+    display: inline-block;
+    background: url(../img/icon.png);
+    margin: 0 3px;}
+    .header .header-icon a.icon1 {background-position: 0 0;}
+    .header .header-icon a.icon2 {background-position: 0 -60px;}
+    .header .header-icon a.icon1:hover {background-position: -60px 0;} */
+
+/* ban */
+.ban-filter {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+  padding: 10px 0px 0px;
+}
+
+.ban-filter ul {
+  overflow: hidden;
+}
+.ban-filter ul li {
+  float: left;
+  width: 800px;
+  padding-bottom: 0px;
+  text-align: center;}
+
+
+.ban-filter ul li h6 {
+  font-size: 23px;
+  color: #706b6b;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 20px 30px 0px;
+  border-top: 1px solid;
+  border-color: #8f7a71;
+  font-weight: 500;
+}
+
+.ban-filter .ban-img img{
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ban-filter ul li a {}
+
+.ban-filter ul li a img{
+  margin-top: -20px;
+
+}
+
+
+/* index slick banner */
+.ban {
+  background-color: #fff;
+  position: relative;
+  padding: 10px 50px 15px;
+}
+
+.ban .slick-prev
+  {
+    position: absolute;
+    left: -10px; top: 250px;
+    width: 53px; height: 43px;
+    background: url(../img/icon.png) no-repeat -190px 0px;
+    text-indent: -9999px;
+  }
+.ban .slick-next{
+  position: absolute;
+  right: -10px; top: 250px;
+  width: 43px; height: 43px;
+  background: url(../img/icon.png) no-repeat -200px -43px;
+  text-indent: -9999px;
+}
+
+/* .ban .slick-prev: hover{
+  background-position: -93px 0;
+}
+
+.ban .slick-next: hover{
+  background-position: -200px -0px;
+} */
+
+.ban .slick-slide {margin: 10px;}
+
+.ban .slick-dots {
+  position: absolute;
+  bottom: -35px;
+  display: block;
+  width: 800px;
+  text-align: center;
+}
+
+.ban .slick-dots li{
+  display: inline-block;
+  width: 30px;
+  height: 15px;
+  margin: 5px;
+}
+
+.ban .slick-dots li button{
+  text-align: center;
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background: #8f7a71;
+  border-right: 50%;
+}
+
+.ban .slick-dots li.slick-active button {background: #c2a99f;}
+
+#footer .footer-tit {text-align: center;}
+#footer .footer-tit h6 {
+    color: #706b6b;
+    font-size: 15px; padding: 100px;
+    display: inline-block;
+    font-weight: lighter;
+    }
