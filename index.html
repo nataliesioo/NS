@@ -133,8 +133,8 @@
   <script src="js/slick.min.js"></script>
   <script type = "text/javascript">
 
-    <!-- banner -->
-    $(".ban").slick({
+    //Banner
+      $(".ban").slick({
       infinite: true,
       slidesToShow: 1,
       rows: 2,
@@ -145,7 +145,11 @@
       pauseOnDotsHover: true
     });
 
-    $('.ban').slick({
+    $(document).ready(function()
+    {
+        $('img').bind('contextmenu', function(e){
+            return false;
+        });
     });
   </script>
 </body>
